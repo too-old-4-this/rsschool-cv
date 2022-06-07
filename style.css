@@ -1,0 +1,43 @@
+body {
+    font-family: 'Style Script', cursive;
+    font-family: 'Syncopate', sans-serif;
+    font-weight: bold;
+    margin: 0;
+    background-image: url(https://funart.pro/uploads/posts/2021-04/1618506759_22-funart_pro-p-oboi-fon-svetlo-serii-fon-22.jpg);
+}
+.img-logo {
+    text-align: center;
+    margin-top: 0.5em;
+}
+
+img {
+    height: 200px;
+    width: 145px;
+}
+.cv-logo {
+    margin: 1em 0 1.3em 0;
+    text-align: center;
+}
+.bigText {
+    margin: 0;
+    font-size: 3em;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+    border-style: dashed;
+    border-radius: 25px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+code {
+    font-size: 1.1em;
+}
+
+.year {
+    display: flex;
+    justify-content: center;
+    margin-top: 8%;
+}
