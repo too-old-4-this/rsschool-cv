@@ -1,35 +1,63 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>CV</title>
-    <link href="https://fonts.googleapis.com/css2?family=Style+Script&family=Syncopate&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
-</head>
-<body>
-    <div class="img-logo"><img src="https://www.pngkit.com/png/full/1-14054_png-file-size-hipster-beard-logo.png" alt="Face"></div>
-    <div class="cv-logo">
-        <h1 class="bigText">CV</h1>
-    </div>
-    <div class="info"><ul>
-        <li>Name: Oleg Enin</li>
-        <li>Contacts: Discord too-old-4-this</li>
-        <li> HTML, JS, CSS at beginner level</li>
-        <li>Code example:
-        <code>function multiply(a, b){
-        return a * b
-        }
-        </code></li>
-        <li>Work experience: System Administrator</li>
-        <li>Education: Higher economic</li>
-        <li> English level: B1</li>
-    </ul></div>
-    <div class="year">
-        <h3>2022</h3>
-    </div>
-
-</body>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Style+Script&family=Syncopate&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <link rel="shortcut icon" href="./assets/ico/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <header>
+      <nav class="cv-nav">
+        <ul class="nav-list">
+          <li class="nav-item"><a class="link-style" href="">NAME</a></li>
+          <li class="nav-item"><a class="link-style" href="">CONTACTS</a></li>
+          <li class="nav-item"><a class="link-style" href="">SKILLS</a></li>
+          <li class="nav-item"><a class="link-style" href="">WORK EXPERIENCE</a></li>
+          <li class="nav-item"><a class="link-style" href="">EDUCATION</a></li>
+          <li class="nav-item"><a class="link-style" href="">ENGLISH LEVEL</a></li>
+        </ul>
+      </nav>
+      <div class="cv-img-container">
+        <img class="cv-img"
+          src="./assets/img/logo.png"
+          alt="face"
+        />
+      </div>
+      <div class="cv-header-container">
+        <h1 class="header-txt">CV</h1>
+      </div>
+    </header>
+    <main>
+      <div class="info">
+        <ul>
+          <li>Name: <i>Oleg Enin</i></li>
+          <li>Contacts: <i><a class="link-style" href="https://github.com/too-old-4-this" target="_blank">Github</a>/Discord too-old-4-this#7001</i></li>
+          <li>Skills: <i>HTML, CSS, JS at beginner level</i></li>
+          <li>
+            Code example:
+            <code class="code-ex"><i>function multiply(a, b){ return a * b }</i></code>
+          </li>
+          <li>Projects: <a class="link-style" href="https://github.com/too-old-4-this/rsschool-cv" target="_blank"><i>RSSCHOOL-CV</i></a></li>
+          <li>Work experience: <i>System Administrator</i></li>
+          <li>Education: <i>Higher economic</i></li>
+          <li>English level: <i>B1</i></li>
+        </ul>
+      </div>
+    </main>
+    <footer class="footer">
+        <div class="rsschool">
+            <a class="rsschool-link" href="https://rs.school/js/" target="_blank"><img class="rsschool-img" src="./assets/svg/rs_school_js.svg" alt="rsschool logo"></a>
+        </div>
+        <div class="year-container">
+            <h3 class="year">2022</h3>
+        </div>
+    </footer>
+  </body>
 </html>
